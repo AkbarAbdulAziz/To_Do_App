@@ -6,7 +6,7 @@ This app allows users to track the to dos.
 1.Download the sourse code
 
 ```js
-git clone [url to the github repo]
+git clone https://github.com/AkbarAbdulAziz/To_Do_App.git
 ```
 or just download *.zip file
 
@@ -25,4 +25,4 @@ node app.js
 - pug
 
 ### Link to github repo
-[url to the githuyb repo]
+https://github.com/AkbarAbdulAziz/To_Do_App.git
