@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.logo {
+    text-align: center; 
+    font-size: 4rem;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.5rem;
+    width: 80%;
+border: 1px solid darkgray;
+}
+
+.btn {
+    background-color: cornflowerblue;
+    color: cornsilk;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    width: 25%;
+    border: none;
+}
+.btn:hover{
+    background: skyblue;
+    color: darkturquoise;
+}
+
+.todos {
+    margin-top: 15px;
+    border: 1px groove darkgrey;
+    padding: 10px;
+}
+
+.todo {
+    padding: 10px;
+    font-size: 1.5rem;
+    border-bottom: 1px dashed darkgrey;
+    color: lightslategray;
+}
+.todo:hover {
+    background: skyblue;
+    color: darkturquoise;
+    font-size: 1.7rem;
+}

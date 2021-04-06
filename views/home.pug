@@ -1,0 +1,19 @@
+extends layout.pug 
+
+block content
+     if error
+         p Here can not be emty!
+
+     if success 
+         p Good Done!
+         
+     form.form(action='/add' method='POST')
+         input.input(type='text' placeholder='Write your ToDo description...' name='todo')
+         button.btn Create 
+
+     div.todos
+         if todos.length
+             each todo in todos
+                 p.todo #{ todo.description}
+         else
+             p.todo No any ToDo valid!
