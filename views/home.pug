@@ -2,11 +2,11 @@ extends layout.pug
 
 block content
      if error
-         p Here can not be emty!
+         p.error Here can not be emty!
 
      if success 
-         p Good Done!
-         
+         p.success Good Done!
+
      form.form(action='/add' method='POST')
          input.input(type='text' placeholder='Write your ToDo description...' name='todo')
          button.btn Create 
