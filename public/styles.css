@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: ghostwhite;
 }
 
 .container {
@@ -16,6 +17,7 @@
 .logo {
     text-align: center; 
     font-size: 4rem;
+    color: black;
 }
 
 .form {
@@ -25,18 +27,20 @@
 }
 
 .input {
+    color: green;
+    background-color: none;
     font-family: 'New Tegomin', serif;
     display: inline-block;
     padding: 10px;
     font-size: 1.5rem;
     width: 80%;
-border: 1px solid darkgray;
+border: 2px solid darkgreen;
 }
 
 .btn {
     font-family: 'New Tegomin', serif;
-    background-color: cornflowerblue;
-    color: cornsilk;
+    background-color: darkgreen;
+    color: white;
     display: inline-block;
     padding: 10px 20px;
     font-size: 1.5rem;
@@ -44,14 +48,18 @@ border: 1px solid darkgray;
     border: none;
 }
 .btn:hover{
-    background: skyblue;
-    color: darkturquoise;
+    background: darkgreen;
+    color: black;
 }
 
 .todos {
+
     margin-top: 15px;
-    border: 1px groove darkgrey;
+    border: 2px solid darkgreen;
+    color: none;
+    background-color: darkgray;
     padding: 10px;
+
 }
 
 .todo {
@@ -59,8 +67,9 @@ border: 1px solid darkgray;
     justify-content: space-between;
     padding: 10px;
     font-size: 1.5rem;
-    border-bottom: 1px dashed darkgrey;
-    color: lightslategray;
+    border-bottom: 1px dashed gray;
+    color: green;
+    background-color: darkgray;
 }
 
 .todo:last-child {
@@ -72,45 +81,55 @@ border-top: solid;
 }
 
 .todo:hover {
-    background: skyblue;
-    color: darkturquoise;
+    background: darkgray;
+    color: green;
     font-size: 1.7rem;
 }
 
 .error {
+    background-color: tomato;
     margin-bottom: 15px;
-    background: whitesmoke;
     text-align: center;
-    color: red;
+    color: darkred;
     font-size: 1.5rem;
-    border: 1px solid red;
+    border: 2px solid darkred;
     padding: 10px;
 }
 
 .success {
+    background-color: limegreen;
     margin-bottom: 15px;
-    background: whitesmoke;
     text-align: center;
-    color: green;
+    color: darkgreen;
     font-size: 1.5rem;
-    border: 1px solid green;
+    border: 2px solid darkgreen;
     padding: 10px;
 }
 
 .delete {
-    text-decoration: none;
-    font-size: 1.2rem;
+    text-decoration: solid;
+    font-size: 1.3rem;
     padding: 5px 10px;
-    background: tomato;
-    color: #fff;
+    border: 1px solid red;
+    color: red;
+    background-color: darkgray;
+}
+.delete:hover {
+    background: darkgray;
+    color: darkred;
+    border: 1px solid darkred;
 }
 
 .done,
 .undone {
     text-decoration: none;
-    color: black;
+    color: green;
+    background-color: darkgray;
 }
 
+
+
+
 .done {
-    text-decoration: line-through;
+    text-decoration: darkgreen line-through;
 }
