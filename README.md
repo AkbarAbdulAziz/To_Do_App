@@ -26,3 +26,6 @@ node app.js
 
 ### Link to github repo
 https://github.com/AkbarAbdulAziz/To_Do_App.git
+
+### Link to Application on Glitch
+https://bloom-legend-onion.glitch.me/
