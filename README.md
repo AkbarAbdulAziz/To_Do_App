@@ -8,7 +8,7 @@ Users may use this Application to keep track of their to-do lists.
 ```js
 git clone https://github.com/AkbarAbdulAziz/To_Do_App.git`
 ```
-or you do it by *.zip file
+or you may do it by downloading *.zip file
 
 2.Install deps
 ```js
